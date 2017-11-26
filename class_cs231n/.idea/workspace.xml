@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a73773fa-ca23-461c-9554-87b5c7dd3398" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_classifier.py" afterPath="$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_classifier.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_svm.py" afterPath="$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_svm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py" afterPath="$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/cs231n/gradient_check.py" afterPath="$PROJECT_DIR$/assignment1/cs231n/gradient_check.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/knn.ipynb" afterPath="$PROJECT_DIR$/assignment1/knn.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/softmax.ipynb" afterPath="$PROJECT_DIR$/assignment1/softmax.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/svm.ipynb" afterPath="$PROJECT_DIR$/assignment1/svm.ipynb" />
     </list>
@@ -66,8 +60,8 @@
       <file leaf-file-name="linear_svm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_svm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="486">
+              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding>
                 <element signature="e#59#648#1" expanded="false" />
                 <element signature="e#1346#1468#1" expanded="false" />
@@ -76,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linear_classifier.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="linear_classifier.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="408">
+              <caret line="94" column="13" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="13" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#349#1108#1" expanded="false" />
@@ -101,13 +95,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="softmax.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="softmax.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="570">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#1298#1410#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -574,6 +569,7 @@
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1298#1410#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -610,6 +606,7 @@
           <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1298#1410#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -654,21 +651,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_classifier.py">
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="54" />
+        <state relative-caret-position="570">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#349#1108#1" expanded="false" />
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1298#1410#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_svm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="486">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="e#59#648#1" expanded="false" />
             <element signature="e#1346#1468#1" expanded="false" />
@@ -676,12 +673,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py">
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="408">
+          <caret line="94" column="13" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="13" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#349#1108#1" expanded="false" />
           </folding>
         </state>
       </provider>
