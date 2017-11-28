@@ -92,7 +92,7 @@ class KNearestNeighbor(object):
     """
         num_test = X.shape[0]
         num_train = self.X_train.shape[0]
-        dists = dists = np.sqrt((X**2).sum(axis=1, keepdims=True) + (self.X_train**2).sum(axis=1) - 2 * X.dot(self.X_train.T))
+        dists = np.sqrt((X**2).sum(axis=1, keepdims=True) + (self.X_train**2).sum(axis=1) - 2 * X.dot(self.X_train.T))
         return dists
 
     def predict_labels(self, dists, k=1):

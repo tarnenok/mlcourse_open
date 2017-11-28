@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a73773fa-ca23-461c-9554-87b5c7dd3398" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py" afterPath="$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/softmax.ipynb" afterPath="$PROJECT_DIR$/assignment1/softmax.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/svm.ipynb" afterPath="$PROJECT_DIR$/assignment1/svm.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/tarne.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/tarne.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/cs231n/classifiers/k_nearest_neighbor.py" afterPath="$PROJECT_DIR$/assignment1/cs231n/classifiers/k_nearest_neighbor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py" afterPath="$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/cs231n/vis_utils.py" afterPath="$PROJECT_DIR$/assignment1/cs231n/vis_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/two_layer_net.ipynb" afterPath="$PROJECT_DIR$/assignment1/two_layer_net.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,6 +15,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/class_cs231n$neural_net.coverage" NAME="neural_net Coverage Results" MODIFIED="1511897148798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment1/cs231n/classifiers" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -30,13 +36,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="k_nearest_neighbor.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="k_nearest_neighbor.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/k_nearest_neighbor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="44" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#214#583#1" expanded="false" />
                 <element signature="e#687#1271#1" expanded="false" />
                 <element signature="e#1715#2160#1" expanded="false" />
@@ -47,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="misc.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scipy/linalg/misc.py">
+      <file leaf-file-name="distance.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scipy/spatial/distance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="202">
+              <caret line="407" column="4" lean-forward="false" selection-start-line="407" selection-start-column="4" selection-end-line="407" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -60,8 +65,8 @@
       <file leaf-file-name="linear_svm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_svm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="18">
+              <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding>
                 <element signature="e#59#648#1" expanded="false" />
                 <element signature="e#1346#1468#1" expanded="false" />
@@ -70,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linear_classifier.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="linear_classifier.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="94" column="13" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="13" />
+            <state relative-caret-position="354">
+              <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="40" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#349#1108#1" expanded="false" />
@@ -83,14 +88,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradient_check.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment1/cs231n/gradient_check.py">
+      <file leaf-file-name="neural_net.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+            <state relative-caret-position="300">
+              <caret line="146" column="28" lean-forward="true" selection-start-line="146" selection-start-column="28" selection-end-line="146" selection-end-column="28" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#91#657#1" expanded="false" />
+                <element signature="e#1892#2824#1" expanded="false" />
+                <element signature="e#6428#7252#1" expanded="false" />
+                <element signature="e#8820#9375#1" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vis_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment1/cs231n/vis_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-438">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Anaconda3/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="392" column="36" lean-forward="true" selection-start-line="392" selection-start-column="36" selection-end-line="392" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numeric.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shape_base.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/numpy/core/shape_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="297" column="22" lean-forward="false" selection-start-line="297" selection-start-column="22" selection-end-line="297" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,11 +149,10 @@
       <file leaf-file-name="softmax.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="396">
               <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#1298#1410#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -116,11 +166,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assignment1/cs231n/classifiers/k_nearest_neighbor.py" />
         <option value="$PROJECT_DIR$/assignment1/cs231n/gradient_check.py" />
         <option value="$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_svm.py" />
         <option value="$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_classifier.py" />
         <option value="$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py" />
+        <option value="$PROJECT_DIR$/assignment1/cs231n/classifiers/k_nearest_neighbor.py" />
+        <option value="$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py" />
+        <option value="$PROJECT_DIR$/assignment1/cs231n/vis_utils.py" />
       </list>
     </option>
   </component>
@@ -226,13 +278,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="SearchEverywhereHistoryKey" value="update&#9;ACTION&#9;WelcomeScreen.Update" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\tarne\AppData\Roaming\npm\node_modules\gulp" />
+    <property name="nodejs.protractor.protractor_package" value="" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.neural_net">
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,6 +315,9 @@
       <option name="OPTIONS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -260,6 +325,9 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -290,7 +358,60 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="" />
+      <option name="PORT" value="0" />
+      <option name="HOST" value="null" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="class_cs231n" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="host" value="127.0.0.1" />
+      <option name="browserUrl" value="" />
+      <option name="additionalOptions" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="class_cs231n" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.PyramidServer" factoryName="Pyramid server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -303,9 +424,33 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="class_cs231n" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="CONFIGURATION_FILE" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment1/cs231n/classifiers" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="class_cs231n" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
       <method />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -319,6 +464,14 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="class_cs231n" />
+      <method />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="Docker Deployment">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -447,6 +600,27 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="neural_net" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment1/cs231n/classifiers" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="class_cs231n" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.neural_net" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -483,18 +657,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29652998" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3753943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,16 +678,112 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="X.shape" language="Python" />
+        <watch expression="grads['W1'].shape" language="Python" />
+        <watch expression="d_hidden.shape" language="Python" />
+        <watch expression="relu_values.shape" language="Python" />
+        <watch expression="grads['b1'].shape" language="Python" />
+        <watch expression="b1.shape" language="Python" />
+        <watch expression="W1_full.shape" language="Python" />
+        <watch expression="d_hidden.shape" language="Python" />
+        <watch expression="W1.shape" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/k_nearest_neighbor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="e#214#583#1" expanded="false" />
+            <element signature="e#687#1271#1" expanded="false" />
+            <element signature="e#1715#2160#1" expanded="false" />
+            <element signature="e#2498#2704#1" expanded="false" />
+            <element signature="e#3013#3204#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scipy/linalg/misc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding>
+            <element signature="e#59#648#1" expanded="false" />
+            <element signature="e#1346#1468#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="87" column="34" lean-forward="false" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#349#1108#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/gradient_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/k_nearest_neighbor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <folding>
             <element signature="e#214#583#1" expanded="false" />
             <element signature="e#687#1271#1" expanded="false" />
             <element signature="e#1715#2160#1" expanded="false" />
@@ -569,7 +839,6 @@
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1298#1410#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -579,7 +848,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#214#583#1" expanded="false" />
             <element signature="e#687#1271#1" expanded="false" />
             <element signature="e#1715#2160#1" expanded="false" />
@@ -606,15 +874,7 @@
           <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1298#1410#1" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scipy/spatial/distance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="432" column="13" lean-forward="false" selection-start-line="432" selection-start-column="13" selection-end-line="432" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -623,21 +883,6 @@
         <state relative-caret-position="90">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/k_nearest_neighbor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#214#583#1" expanded="false" />
-            <element signature="e#687#1271#1" expanded="false" />
-            <element signature="e#1715#2160#1" expanded="false" />
-            <element signature="e#2498#2704#1" expanded="false" />
-            <element signature="e#3013#3204#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,21 +896,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1298#1410#1" expanded="false" />
-          </folding>
+    <entry file="file://C:/Program Files/Anaconda3/pkgs/nbconvert-5.3.1-py35h98d6c46_0/Lib/site-packages/nbconvert/preprocessors/tests/files/update-display-id.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_svm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="18">
+          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="e#59#648#1" expanded="false" />
             <element signature="e#1346#1468#1" expanded="false" />
@@ -673,13 +914,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/numpy/core/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="297" column="22" lean-forward="false" selection-start-line="297" selection-start-column="22" selection-end-line="297" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="392" column="36" lean-forward="true" selection-start-line="392" selection-start-column="36" selection-end-line="392" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="94" column="13" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="13" />
+        <state relative-caret-position="354">
+          <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="40" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
             <element signature="e#349#1108#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/vis_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="146" column="28" lean-forward="true" selection-start-line="146" selection-start-column="28" selection-end-line="146" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#91#657#1" expanded="false" />
+            <element signature="e#1892#2824#1" expanded="false" />
+            <element signature="e#6428#7252#1" expanded="false" />
+            <element signature="e#8820#9375#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scipy/spatial/distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="407" column="4" lean-forward="false" selection-start-line="407" selection-start-column="4" selection-end-line="407" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/k_nearest_neighbor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="44" />
+          <folding>
+            <element signature="e#214#583#1" expanded="false" />
+            <element signature="e#687#1271#1" expanded="false" />
+            <element signature="e#1715#2160#1" expanded="false" />
+            <element signature="e#2498#2704#1" expanded="false" />
+            <element signature="e#3013#3204#1" expanded="false" />
           </folding>
         </state>
       </provider>
