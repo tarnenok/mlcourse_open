@@ -91,7 +91,7 @@ class TwoLayerNet(object):
         # if y is None:
         #     return scores
 
-        exp_scores = np.exp(scores)
+        exp_scores = np.exp(scores - np.max(scores, axis=1).reshape(-1, 1))
         sum_exp_scores = np.sum(exp_scores, axis=1, keepdims=True)
         preds = exp_scores/sum_exp_scores
 
