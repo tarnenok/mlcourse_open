@@ -71,87 +71,41 @@ class TwoLayerNet(object):
     - grads: Dictionary mapping parameter names to gradients of those parameters
       with respect to the loss function; has the same keys as self.params.
     """
-        # Unpack variables from the params dictionary
         W1, b1 = self.params['W1'], self.params['b1']
         W2, b2 = self.params['W2'], self.params['b2']
         N, D = X.shape
 
-        W1_full = np.vstack((W1, b1))
-        W2_full = np.vstack((W2, b2))
-        X = np.hstack((X, np.ones((X.shape[0], 1))))
-        scores1 = X.dot(W1_full)
-        scores1 = np.hstack((scores1, np.ones((scores1.shape[0], 1))))
-        relu_values = self._relu(scores1)
-        scores = relu_values.dot(W2_full)
+        scores1 = X.dot(W1)
+        scores1_full = scores1 + b1
+        hidden1 = self._relu(scores1_full)
+        scores2 = hidden1.dot(W2)
+        scores2_full = scores2 + b2
 
-        # # If the targets are not given then jump out, we're done
-        # z1 = X.dot(W1) + b1
-        # a1 = np.maximum(0, z1)  # pass through ReLU activation function
-        # scores = a1.dot(W2) + b2
-        # if y is None:
-        #     return scores
+        if y is None:
+            return scores2_full
 
-        exp_scores = np.exp(scores - np.max(scores, axis=1).reshape(-1, 1))
-        sum_exp_scores = np.sum(exp_scores, axis=1, keepdims=True)
-        preds = exp_scores/sum_exp_scores
-
+        exp_scores = np.exp(scores2_full - np.sum(scores2_full, axis=1).reshape(-1, 1))
+        preds = exp_scores/np.sum(exp_scores, axis=1).reshape(-1, 1)
         data_loss = np.sum(-np.log(preds[np.arange(N), y]))
         data_loss /= N
         reg_loss = reg * np.sum(W1 * W1) + reg * np.sum(W2 * W2)
         loss = reg_loss + data_loss
-        #
-        # # Backward pass: compute gradients
+
         grads = {}
-        #############################################################################
-        # TODO: Compute the backward pass, computing the derivatives of the weights #
-        # and biases. Store the results in the grads dictionary. For example,       #
-        # grads['W1'] should store the gradient on W1, and be a matrix of same size #
-        #############################################################################
-        grads['W2'] = W2_full*reg
 
-        preds[np.arange(N), y] -= 1
-        d_scores = preds/N
-        grads['W2'] += scores1.T.dot(d_scores)
-        grads['b2'] = grads['W2'][-1, :]
-        grads['W2'] = grads['W2'][:-1, :]
-        d_hidden = d_scores.dot(W2_full.T)
-        d_hidden[scores1 <= 0] = 0
-        grads['W1'] = X.T.dot(d_hidden)[:, :-1]
-        grads['b1'] = grads['W1'][-1, :]
-        grads['W1'] = grads['W1'][:-1, :]
-        grads['W1'] += W1*reg
-        #############################################################################
-        #                              END OF YOUR CODE                             #
-        #############################################################################
-        # exp_scores = np.exp(scores)
-        # probs = exp_scores / np.sum(exp_scores, axis=1, keepdims=True)  # [N x K]
-        #
-        # # average cross-entropy loss and regularization
-        # corect_logprobs = -np.log(probs[range(N), y])
-        # data_loss = np.sum(corect_logprobs) / N
-        # reg_loss = 0.5 * reg * np.sum(W1 * W1) + 0.5 * reg * np.sum(W2 * W2)
-        # loss = data_loss + reg_loss
-        #
-        #
-        # dscores = probs
-        # dscores[range(N), y] -= 1
-        # dscores /= N
-        #
-        # # W2 and b2
-        # grads['W2'] = np.dot(a1.T, dscores)
-        # grads['b2'] = np.sum(dscores, axis=0)
-        # # next backprop into hidden layer
-        # dhidden = np.dot(dscores, W2.T)
-        # # backprop the ReLU non-linearity
-        # dhidden[a1 <= 0] = 0
-        # # finally into W,b
-        # grads['W1'] = np.dot(X.T, dhidden)
-        # grads['b1'] = np.sum(dhidden, axis=0)
-        #
-        # # add regularization gradient contribution
-        # grads['W2'] += reg * W2
-        # grads['W1'] += reg * W1
-
+        d_scores2_full = preds
+        d_scores2_full[np.arange(N), y] -= 1
+        d_scores2_full /= N
+        grads['b2'] = np.sum(d_scores2_full, axis=0)
+        d_scores2 = d_scores2_full
+        grads['W2'] = hidden1.T.dot(d_scores2) + W2*2*reg
+        d_hidden1 = d_scores2.dot(W2.T)
+        d_scores1_full = np.zeros(scores1_full.shape)
+        d_scores1_full[scores1_full > 0] = 1
+        d_scores1_full *= d_hidden1
+        grads['b1'] = np.sum(d_scores1_full, axis=0)
+        d_scores1 = d_scores1_full
+        grads['W1'] = X.T.dot(d_scores1) + W1*2*reg
 
         return loss, grads
 

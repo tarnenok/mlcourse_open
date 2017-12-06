@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a73773fa-ca23-461c-9554-87b5c7dd3398" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py" afterPath="$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/cs231n/features.py" afterPath="$PROJECT_DIR$/assignment1/cs231n/features.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/features.ipynb" afterPath="$PROJECT_DIR$/assignment1/features.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/knn.ipynb" afterPath="$PROJECT_DIR$/assignment1/knn.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/two_layer_net.ipynb" afterPath="$PROJECT_DIR$/assignment1/two_layer_net.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,17 +72,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neural_net.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="neural_net.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-798">
-              <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+            <state relative-caret-position="198">
+              <caret line="88" column="38" lean-forward="true" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#91#657#1" expanded="false" />
                 <element signature="e#1892#2824#1" expanded="false" />
-                <element signature="e#6468#7292#1" expanded="false" />
-                <element signature="e#8860#9415#1" expanded="false" />
+                <element signature="e#4339#5163#1" expanded="false" />
+                <element signature="e#6731#7286#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -135,23 +132,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shape_base.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/numpy/core/shape_base.py">
+      <file leaf-file-name="softmax.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5346">
-              <caret line="297" column="22" lean-forward="false" selection-start-line="297" selection-start-column="22" selection-end-line="297" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="498">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="softmax.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py">
+      <file leaf-file-name="linear_svm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_svm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#59#648#1" expanded="false" />
+                <element signature="e#1346#1468#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -682,13 +682,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py</url>
-          <line>155</line>
+          <line>109</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -756,8 +751,8 @@
             <element signature="e#0#37#0" expanded="true" />
             <element signature="e#91#657#1" expanded="false" />
             <element signature="e#1892#2824#1" expanded="false" />
-            <element signature="e#6468#7292#1" expanded="false" />
-            <element signature="e#8860#9415#1" expanded="false" />
+            <element signature="e#4339#5163#1" expanded="false" />
+            <element signature="e#6731#7286#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -841,6 +836,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
           <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding>
+            <element signature="e#59#648#1" expanded="false" />
+            <element signature="e#1346#1468#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -897,6 +896,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#648#1" expanded="false" />
+            <element signature="e#1346#1468#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,6 +949,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#59#648#1" expanded="false" />
+            <element signature="e#1346#1468#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -980,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/numpy/core/shape_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5346">
@@ -1008,16 +1008,6 @@
         <state relative-caret-position="7056">
           <caret line="392" column="36" lean-forward="false" selection-start-line="392" selection-start-column="36" selection-end-line="392" selection-end-column="36" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,14 +1066,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/neural_net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798">
-          <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+        <state relative-caret-position="198">
+          <caret line="88" column="38" lean-forward="true" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
             <element signature="e#91#657#1" expanded="false" />
             <element signature="e#1892#2824#1" expanded="false" />
-            <element signature="e#6468#7292#1" expanded="false" />
-            <element signature="e#8860#9415#1" expanded="false" />
+            <element signature="e#4339#5163#1" expanded="false" />
+            <element signature="e#6731#7286#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/softmax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/cs231n/classifiers/linear_svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="e#59#648#1" expanded="false" />
+            <element signature="e#1346#1468#1" expanded="false" />
           </folding>
         </state>
       </provider>
